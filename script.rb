@@ -6,20 +6,20 @@ def caesars_code
   secret_message = []
 
   message.each_char do |letter|
-    if letter == " "
-    elsif letter == "!" || letter == "," || letter == "?" || letter == "."
-    
+    if letter == ' '
+    elsif letter.include?('!') || letter.include?(',') || letter.include?('?') || letter.include?('.')
+
     elsif letter == letter.upcase
-      alphabet = ('A'..'Z').to_a  
-      idx = alphabet.index("#{letter}")
+      alphabet = ('A'..'Z').to_a
+      idx = alphabet.index(letter.to_s)
       letter = alphabet[idx - num]
-    elsif
-      alphabet = ('a'..'z').to_a  
-      idx = alphabet.index("#{letter}")
+    elsif letter == letter.downcase
+      alphabet = ('a'..'z').to_a
+      idx = alphabet.index(letter.to_s)
       letter = alphabet[idx - num]
     end
     secret_message << letter
-  end  
+  end
   puts "The Caesar ciphered message for '#{message}' is '#{secret_message.join}'"
 end
 caesars_code
