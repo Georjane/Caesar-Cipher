@@ -1,13 +1,12 @@
-# Caesar-Cipher
-> In cryptography, a Caesar cipher, also known as Caesar’s cipher, the shift cipher, Caesar’s code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
-This program takes in a string and a shift factor and then outputs the modified string
+# Sub-Strings
+> This method takes a word as the first argument and then an array of valid substrings (dictionary) as the second argument. It returns a hash listing each substring (case insensitive) that was found in the original string and how many times it was found.
 
 ## Built With
 
 - Ruby
 
 ## Live Code
-[Live Link](https://repl.it/@WitahGeorjane/ParallelMonstrousMass-2#script.rb)
+[Live Link](https://repl.it/join/nbkmaxvj-witahgeorjane)
 
 
 ## Getting Started
@@ -15,11 +14,11 @@ This program takes in a string and a shift factor and then outputs the modified 
 To get a local copy of the repository please run the following commands on your terminal:
 
 ```
-$ cd Caesar-Cipher
+$ cd Sub-Strings
 ```
 
 ```
-$ git clone https://github.com/Georjane/Caesar-Cipher.git
+$ git clone https://github.com/Georjane/Sub-Strings.git
 ```
 
 ## Author
@@ -34,7 +33,7 @@ $ git clone https://github.com/Georjane/Caesar-Cipher.git
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Georjane/Caesar-Cipher/issues).
+Feel free to check the [issues page](https://github.com/Georjane/Sub-Strings/issues).
 
 
 ## Show your support

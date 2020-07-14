@@ -1,8 +1,8 @@
-def caesars_code
+def caesars(message, num)
   puts 'Enter your message'
-  message = gets.chomp.to_s
+  #message = gets.chomp.to_s
   puts 'Enter number to use for secret message'
-  num = gets.chomp.to_i
+  #num = gets.chomp.to_i
   secret_message = []
 
   message.each_char do |letter|
@@ -21,5 +21,5 @@ def caesars_code
     secret_message << letter
   end
   puts "The Caesar ciphered message for '#{message}' is '#{secret_message.join}'"
+  secret_message.join
 end
-caesars_code
