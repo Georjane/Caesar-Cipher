@@ -15,12 +15,24 @@
 To get a local copy of the repository please run the following commands on your terminal:
 
 ```
-$ cd Sub-Strings
-```
-
-```
 $ git clone https://github.com/Georjane/Sub-Strings.git
 ```
+```
+$ cd Sub-Strings
+```
+## Testing
+### Install Rspec
+
+```
+$ gem install rspec
+```
+To test the code, run rspec from root of the folder using terminal as follows
+
+```
+rspec
+```
+
+Rspec is used for the test.
 
 ## Author
 
