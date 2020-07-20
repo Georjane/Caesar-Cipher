@@ -6,7 +6,8 @@
 - Ruby
 
 ## Live Code
-[Live Link](https://repl.it/join/nbkmaxvj-witahgeorjane)
+
+[Live Link](https://repl.it/@WitahGeorjane/Caesar-Cipher-1#script.rb)
 
 
 ## Getting Started
